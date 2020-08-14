@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2020-08-14T10:47:46.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="wwZ7Jgs0sF6oMTS0UM5p" version="13.5.8" type="github">
+  <diagram id="hWd0OYz_5RrIQ1HUjQLA" name="Page-1">
+    <mxGraphModel dx="1186" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1z5AVC7Qh0aS94i8viWW-1" value="AWS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-30" width="1410" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-3" value="Fargate" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-1" value="Vault" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="83.34" width="80" height="53.33" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-4" value="S3 bucket&lt;br&gt;Vault-backend" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="220" y="70" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-5" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=80;exitDy=36.665;exitPerimeter=0;" parent="1" source="IY_ovx4S4jwLV6iGEMUn-1" target="IY_ovx4S4jwLV6iGEMUn-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-6" value="EKS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="200" width="770" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-7" value="Slack Hydrant Webhook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="50" y="-270" width="291" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-8" value="Terra*" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="IY_ovx4S4jwLV6iGEMUn-13" vertex="1">
+          <mxGeometry y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-9" value="S3 TF Backend" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=middle;" parent="IY_ovx4S4jwLV6iGEMUn-13" vertex="1">
+          <mxGeometry x="111" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="IY_ovx4S4jwLV6iGEMUn-13" source="IY_ovx4S4jwLV6iGEMUn-8" target="IY_ovx4S4jwLV6iGEMUn-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-10" value="DynamoBD LOCK Table" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="IY_ovx4S4jwLV6iGEMUn-13" vertex="1">
+          <mxGeometry x="111" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IY_ovx4S4jwLV6iGEMUn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="IY_ovx4S4jwLV6iGEMUn-13" source="IY_ovx4S4jwLV6iGEMUn-8" target="IY_ovx4S4jwLV6iGEMUn-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1z5AVC7Qh0aS94i8viWW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IY_ovx4S4jwLV6iGEMUn-8" target="1z5AVC7Qh0aS94i8viWW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
