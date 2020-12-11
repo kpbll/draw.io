@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T10:03:35.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="mx6BCL2wjgfmVjAre9nm" type="github"><diagram id="TGUSTeKg8-i3Y1dXW0AE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-11T10:20:58.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ZhDmIua5mCbk4zsuyvLA" version="14.0.1" type="github">
+  <diagram id="TGUSTeKg8-i3Y1dXW0AE" name="Page-1">
+    <mxGraphModel dx="1606" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rxsttuS73B1I9wR3Bj22-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-4" target="rxsttuS73B1I9wR3Bj22-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-4" value="Vault secrets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="168.13" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-6" target="rxsttuS73B1I9wR3Bj22-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-6" value="%SERVICE%_values.yaml files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="498.13" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-7" target="rxsttuS73B1I9wR3Bj22-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-7" value="Consul-template" style="triangle;whiteSpace=wrap;html=1;fillColor=#ffffff;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="529" y="338.13" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-8" value="" style="group;fontSize=16;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="49" y="138.13" width="760" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-21" value="Sensitive" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;gradientColor=#ffffff;fontSize=16;fontColor=#CC0000;verticalAlign=top;strokeColor=#FF0000;strokeWidth=2;" vertex="1" parent="rxsttuS73B1I9wR3Bj22-8">
+          <mxGeometry x="399" width="323" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-19" value="Versioned" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;dashed=1;fillColor=none;fontSize=16;verticalAlign=top;fontColor=#9933FF;strokeWidth=2;" vertex="1" parent="rxsttuS73B1I9wR3Bj22-8">
+          <mxGeometry x="-19" y="-28.125" width="760" height="206.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-3" value="Github.com" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;gradientColor=#ffffff;verticalAlign=top;fontColor=#009900;strokeWidth=2;" vertex="1" parent="rxsttuS73B1I9wR3Bj22-8">
+          <mxGeometry width="304" height="140.625" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-1" value="%SERVICE%_values.yaml.tpl templates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rxsttuS73B1I9wR3Bj22-8">
+          <mxGeometry x="23.75" y="28.125" width="256.5" height="28.125" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-2" value="Helm Chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rxsttuS73B1I9wR3Bj22-8">
+          <mxGeometry x="23.75" y="84.375" width="256.5" height="28.125" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-1" target="rxsttuS73B1I9wR3Bj22-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="183.13" />
+              <mxPoint x="379" y="378.13" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-12" target="rxsttuS73B1I9wR3Bj22-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-12" value="Helm" style="triangle;whiteSpace=wrap;html=1;fillColor=#ffffff;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="529" y="588.13" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-2" target="rxsttuS73B1I9wR3Bj22-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="243.13" as="sourcePoint" />
+            <mxPoint x="529" y="603.13" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="169" y="643.13" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rxsttuS73B1I9wR3Bj22-15" target="rxsttuS73B1I9wR3Bj22-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-15" value="Helm Release manifests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="758.13" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxsttuS73B1I9wR3Bj22-17" value="K8s" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffffff;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="534" y="838.13" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
