@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T21:24:53.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="X91CzE2S8aLABfiP90Aw" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T21:33:00.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="PHBCaoz7wNJRMyInhG77" version="14.0.1" type="github">
   <diagram id="RxMEeWCy8G6CTXu-9YJE" name="Page-1">
     <mxGraphModel dx="2013" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,11 +28,6 @@
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-10" target="PSYIGVpPT2Qj7c6pXOUl-29">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-33" value="IF Hotfix branch pushed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PSYIGVpPT2Qj7c6pXOUl-30">
-          <mxGeometry x="-0.5282" y="-1" relative="1" as="geometry">
-            <mxPoint x="-79" y="9" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-10" value="Service repos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="470" y="10" width="240" height="190" as="geometry" />
@@ -115,7 +110,7 @@
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-42" value="If branch=Feature" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PSYIGVpPT2Qj7c6pXOUl-41">
           <mxGeometry x="-0.2408" y="3" relative="1" as="geometry">
-            <mxPoint x="5.5" y="-12" as="offset" />
+            <mxPoint x="-4.5" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-34" target="PSYIGVpPT2Qj7c6pXOUl-52">
@@ -127,8 +122,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-60" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;If branch=hotfix&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-34" target="PSYIGVpPT2Qj7c6pXOUl-31">
-          <mxGeometry x="-0.1736" y="25" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+          <mxGeometry x="-0.084" y="35" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-34" value="Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -137,7 +132,7 @@
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-36" value="Deploy to feature ns on DEV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="450" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-49" value="Deploy Prod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-49" value="Deploy Prod" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="480" y="620" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-52" target="PSYIGVpPT2Qj7c6pXOUl-31">
