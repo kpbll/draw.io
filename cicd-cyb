@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T07:41:24.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="SndGj6DqhAEo_-kPbkio" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T12:14:49.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UIlqPJ_iznPycKjfpC9x" version="14.0.1" type="github">
   <diagram id="RxMEeWCy8G6CTXu-9YJE" name="Page-1">
-    <mxGraphModel dx="1373" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,64 +13,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-4" value="cicd repo" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="535" y="20" width="240" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-6" target="PSYIGVpPT2Qj7c6pXOUl-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="500" y="65" />
-              <mxPoint x="500" y="395" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="535" y="-20" width="240" height="230" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-6" value="values-feature-infra.yaml.tpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="50" width="220" height="30" as="geometry" />
+          <mxGeometry x="546.25" y="10" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-10" target="PSYIGVpPT2Qj7c6pXOUl-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-10" value="Service repos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="142" y="20" width="240" height="190" as="geometry" />
+          <mxGeometry x="142" y="-20" width="240" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-11" target="PSYIGVpPT2Qj7c6pXOUl-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="477" y="145" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-11" target="PSYIGVpPT2Qj7c6pXOUl-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-11" target="PSYIGVpPT2Qj7c6pXOUl-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="145" />
-              <mxPoint x="480" y="445" />
-            </Array>
+        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-75" value="If branch is feature then get feature else master" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PSYIGVpPT2Qj7c6pXOUl-74">
+          <mxGeometry x="-0.3474" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-11" value="values.yaml.tpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="152" y="130" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-12" target="PSYIGVpPT2Qj7c6pXOUl-49">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="12" y="65" />
-              <mxPoint x="12" y="735" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="545" y="170" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-12" value="values-prod.yaml.tpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="152" y="50" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-13" target="PSYIGVpPT2Qj7c6pXOUl-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="32" y="105" />
-              <mxPoint x="32" y="575" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="546.25" y="90" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-13" value="values-stage.yaml.tpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="152" y="90" width="220" height="30" as="geometry" />
+          <mxGeometry x="546.25" y="130" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-14" target="PSYIGVpPT2Qj7c6pXOUl-15">
           <mxGeometry relative="1" as="geometry" />
@@ -176,6 +145,15 @@
         </mxCell>
         <mxCell id="PSYIGVpPT2Qj7c6pXOUl-62" value="Create tag vX.X.X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="670" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PSYIGVpPT2Qj7c6pXOUl-70" target="PSYIGVpPT2Qj7c6pXOUl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-70" value="dev-service-list.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546.25" y="50" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSYIGVpPT2Qj7c6pXOUl-73" value="Approve deploy stage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="480" width="205" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
