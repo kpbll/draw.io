@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T11:55:03.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="EzCoVehpubAzLWApGy7D" type="github"><diagram id="5oIMpV-G57dagovV6fo-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-26T12:09:30.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0uOtQ2qGelVNoqol1ofJ" version="14.0.1" type="github">
+  <diagram id="5oIMpV-G57dagovV6fo-" name="Page-1">
+    <mxGraphModel dx="1373" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-1" target="7-_JqzPZ2sX9VVgZEMDm-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="479" y="170" />
+              <mxPoint x="209" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-1" target="7-_JqzPZ2sX9VVgZEMDm-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="170" />
+              <mxPoint x="599" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-1" value="Deploy locked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="449" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-2" target="7-_JqzPZ2sX9VVgZEMDm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-2" target="7-_JqzPZ2sX9VVgZEMDm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;Lock is current commit&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="149" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-5" target="7-_JqzPZ2sX9VVgZEMDm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Lock is another commit&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="539" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-8" target="7-_JqzPZ2sX9VVgZEMDm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-8" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Poll lock and wait 10 mins&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="539" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-11" target="7-_JqzPZ2sX9VVgZEMDm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-11" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;the last success commit exists&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="29" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-12" target="7-_JqzPZ2sX9VVgZEMDm-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-12" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 15px&quot;&gt;the last success commit doesn&#39;t exists&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="269" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-16" value="Deploy all" style="triangle;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="419" y="510" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-17" value="Deploy diff&amp;nbsp;" style="triangle;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="179" y="510" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-22" value="Exit" style="triangle;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="679" y="510" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-24" target="7-_JqzPZ2sX9VVgZEMDm-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="179" y="130" />
+              <mxPoint x="89" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="7-_JqzPZ2sX9VVgZEMDm-24" target="7-_JqzPZ2sX9VVgZEMDm-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="130" />
+              <mxPoint x="329" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-_JqzPZ2sX9VVgZEMDm-24" value="Deploy unlocked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="149" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
